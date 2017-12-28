@@ -57,8 +57,8 @@
 > curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
 >> 安装node版本 :
 >>> nvm install v4.2.3
->>>> 设置 node 默认版本 :
->>>>>  nvm alias default v4.2.3
+>> 设置 node 默认版本 :
+>>>  nvm alias default v4.2.3
 ```
   问题 ： nvm is not found 相关
   解决方案 ：
@@ -111,33 +111,33 @@
 
 ## 项目目录说明
 ```
-|- _tests_
+  |- _tests_
+    |- App.js
+  |- android
+    |- app
+    |- gradle
+    |- keystores
+    ...
+  |- ios
+    |- build
+    |- lenjeeReactNative
+    |- lenjeeReactNative-tvOS
+    |- lenjeeReactNative-tvOSTests
+    |- lenjeeReactNative.xcodeproj
+    |- lenjeeReactNativeTests
+  |- node_modules
+  |- .babelrc
+  |- .buckconfig
+  |- .flowconfig
+  |- .gitattributes
+  |- .gitignore
+  |- .watchmanconfig
   |- App.js
-|- android
-  |- app
-  |- gradle
-  |- keystores
-  ...
-|- ios
-  |- build
-  |- lenjeeReactNative
-  |- lenjeeReactNative-tvOS
-  |- lenjeeReactNative-tvOSTests
-  |- lenjeeReactNative.xcodeproj
-  |- lenjeeReactNativeTests
-|- node_modules
-|- .babelrc
-|- .buckconfig
-|- .flowconfig
-|- .gitattributes
-|- .gitignore
-|- .watchmanconfig
-|- App.js
-|- app.json
-|- index.js 入口文件
-|- package-lock.json
-|- package.json 配置文件
-|- README.md
+  |- app.json
+  |- index.js 入口文件
+  |- package-lock.json
+  |- package.json 配置文件
+  |- README.md
 ```
 
 ## 修改项目默认端口号
