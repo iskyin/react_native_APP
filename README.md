@@ -29,27 +29,28 @@
 >>> brew -v
 
 ## 常用工具插件
-> brew install watchman
->> brew install flow
->>> brew install git
->>>> brew install gcc
->>>>> brew install pkg-config
->>>>>> brew install cairo
->>>>>>> brew install libpng
->>>>>>>> brew install jpeg
->>>>>>>>> brew install gitlib
->>>>>>>>>> brew install mongodb
+
 ```
-  watchman : 监视并记录文件的改动
-  flow : 检查文件js文件错误
-  git : 代码管理工具
-  gcc : c程序的编译器
-  pkg-config : 向用户向程序提供相应库的路径、版本号等信息的程序
-  cairo : 2D图形库
-  libpng : 多种应用程序使用的解析PNG图象格式的库
-  jpeg : 对图片处理
-  gitlib : 搭建本地的git服务器
-  mongodb : 非关系型数据库
+  $ brew install watchman
+      watchman : 监视并记录文件的改动
+  $ brew install flow
+      flow : 检查文件js文件错误
+  $ brew install git
+      git : 代码管理工具
+  $ brew install gcc
+      gcc : c程序的编译器
+  $ brew install pkg-config
+      pkg-config : 向用户向程序提供相应库的路径、版本号等信息的程序
+  $ brew install cairo
+      cairo : 2D图形库
+  $ brew install libpng
+      libpng : 多种应用程序使用的解析PNG图象格式的库
+  $ brew install jpeg
+      jpeg : 对图片处理
+  $ brew install gitlib
+      gitlib : 搭建本地的git服务器
+  $ brew install mongodb
+      mongodb : 非关系型数据库
 ```
 
 ## nvm 安装（node版本管理）
