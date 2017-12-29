@@ -29,7 +29,6 @@
 >>> brew -v
 
 ## 常用工具插件
-
 ```
   $ brew install watchman
       watchman : 监视并记录文件的改动
@@ -57,8 +56,8 @@
 > curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
 >> 安装node版本 :
 >>> nvm install v4.2.3
->> 设置 node 默认版本 :
->>>  nvm alias default v4.2.3
+>>>> 设置 node 默认版本 :
+>>>>>  nvm alias default v4.2.3
 ```
   问题 ： nvm is not found 相关
   解决方案 ：
@@ -111,66 +110,52 @@
 
 ## 项目目录说明
 ```
-  |- _tests_
-    |- App.js
-  |- android
-    |- app
-    |- gradle
-    |- keystores
-    ...
-  |- ios
-    |- build
-    |- lenjeeReactNative
-    |- lenjeeReactNative-tvOS
-    |- lenjeeReactNative-tvOSTests
-    |- lenjeeReactNative.xcodeproj
-    |- lenjeeReactNativeTests
-  |- node_modules
-  |- .babelrc
-  |- .buckconfig
-  |- .flowconfig
-  |- .gitattributes
-  |- .gitignore
-  |- .watchmanconfig
+|- _tests_
   |- App.js
-  |- app.json
-  |- index.js 入口文件
-  |- package-lock.json
-  |- package.json 配置文件
-  |- README.md
+|- android
+  |- app
+  |- gradle
+  |- keystores
+  ...
+|- ios
+  |- build
+  |- lenjeeReactNative
+  |- lenjeeReactNative-tvOS
+  |- lenjeeReactNative-tvOSTests
+  |- lenjeeReactNative.xcodeproj
+  |- lenjeeReactNativeTests
+|- node_modules
+|- .babelrc
+|- .buckconfig
+|- .flowconfig
+|- .gitattributes
+|- .gitignore
+|- .watchmanconfig
+|- App.js
+|- app.json
+|- index.js 入口文件
+|- package-lock.json
+|- package.json 配置文件
+|- README.md
 ```
 
 ## 修改项目默认端口号
 > react-native start --port 9999
 
+# Flexbox布局
+```
+  React Native中的Flexbox的工作原理和web上的CSS基本一致，当然也存在少许差异。
+    flexDirection的默认值是column而不是row
+    flex只能指定一个数字值
+
+  flexDirection
+    可以决定布局的主轴(子元素是应该沿着水平轴(row)方向排列，还是沿着竖直轴(column)方向排列)
+
+  justifyContent
+    决定其子元素沿着主轴的排列方式
+
+  alignItems
+    决定其子元素沿着次轴（与主轴垂直的轴，比如若主轴方向为row，则次轴方向为column）的排列方式
+```
 
 # React Native控件
-## View
-  > 在react-native中View组件是支持FlexBox布局（FlexBox布局的详细使用讲解）、CSS样式以及相关触摸处理的容器组件
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#
